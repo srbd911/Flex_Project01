@@ -84,3 +84,85 @@ body {
     color: rgba(204, 204, 204,0.6);
     margin-bottom: 50px;
 }
+
+/* ========== portfolio css design completed ================= */
+
+#resume {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: #222222; 
+}
+.resume_header {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.resume_header h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 200;
+}
+.resume_header strong {
+    font-weight: 800;
+}
+.resume_header2 {
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+}
+.resume_header2_left {
+    flex-basis: 40%;
+}
+.resume_header2_left h2 {
+    font-size: 25px;
+    font-weight: 200;
+    color: #fff;
+}
+
+
+.resume_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.resume_items {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #333333;
+    color: #fff;
+    flex-basis: 40%;
+    border-radius: 10px;
+}
+.resume_items h6 {
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 35px;
+    padding-bottom: 10px;
+}
+.resume_items h3 {
+    color: #bac964;
+    font-size: 20px;
+    font-weight: 200;
+    padding-left: 35px;
+    padding-bottom: 10px;
+}
+.resume_items p {
+    color: rgba(255,255,255,0.4);
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+.resume_items span {
+    color: rgba(255,255,255,0.4);
+    font-size: 16px;
+    font-weight: 200;
+    padding-left: 35px;
+}
