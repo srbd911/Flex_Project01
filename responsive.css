@@ -65,3 +65,62 @@
         max-height: 250px;
       }
 }
+/* =========================my resume section responsive css starts from below============================================ */
+
+@media screen and (max-width: 575px) {
+  /* for extra small device my resume section */
+  #resume {
+    padding-top: 40px;
+  }
+  .resume_header {
+    padding-bottom: 40px;
+  }
+  .resume_header2_left h2 {
+    font-size: 18px;
+}
+  .resume_items {
+    flex-basis: 90%;
+  }
+  .resume_items h6 {
+    padding-left: 10px;
+  }
+  .resume_items h3 {
+    font-size: 14px;
+    font-weight: 200;
+    padding-left: 10px;
+  }
+  .resume_items p {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+.resume_items span {
+    padding-left: 10px;
+    color: rgba(255,255,255,0.3);
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* for small device my resume section */
+  .resume_items h6 {
+    padding-left: 10px;
+  }
+  .resume_items h3 {
+      font-size: 14px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+  }
+  .resume_items p {
+    padding-left: 10px;
+    line-height: 22px;
+  }
+  .resume_items span {
+    padding-left: 10px;
+    color: rgba(255,255,255,0.3);
+  }
+
+}
+
