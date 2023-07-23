@@ -305,6 +305,9 @@
 /* =================service_section responsive css starts from here===================== */
 @media screen and (max-width: 575px) {
   /* For extra small device */
+  #my_service_section {
+    background-color: #222222;
+  }
   .service_item {
     flex-basis: 90%;
   }
@@ -324,6 +327,9 @@
 @media (min-width: 576px) and (max-width: 767px)
 {
   /* For small device */
+  #my_service_section {
+    background-color: #222222;
+  }
   .service_item {
     flex-basis: 90%;
   }
@@ -343,6 +349,9 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* For medium device */
+  #my_service_section {
+    background-color: #222222;
+  }
   .service_item {
     flex-basis: 45%;
   }
@@ -357,6 +366,9 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
   /* For large device */
+  #my_service_section {
+    background-color: #222222;
+  }
   .service_item2 {
       width: 100%;
       max-height: 430px;
