@@ -241,3 +241,64 @@
   }
 }
 
+/*==============client testimonial responsive css starts from here==================*/
+@media screen and (max-width: 575px) {
+  /* For extra small devices */
+      .testimonial_header h2 {
+        font-size: 24px;
+      }
+      .testimonial_items {
+        flex-basis: 90%;
+      }
+      .client_comment {
+        padding-right: 10px;
+      }
+      .client_comment p {
+        padding-top: 20px;
+        font-size: 12px;
+      }
+      .client_comment #client_name {
+        font-size: 12px;
+      }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  /* For Small devices */
+  .testimonial_header h2 {
+    font-size: 24px;
+  }
+  .testimonial_items {
+    flex-basis: 90%;
+  }
+  .client_comment {
+    padding-right: 10px;
+  }
+  .client_comment p {
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  .client_comment #client_name {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px)  {
+  /* For medium devices */
+  .client_comment p {
+    font-size: 16px;
+    padding-right: 10px;
+  }
+  .client_comment #client_name {
+    font-size: 16px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px)  {
+  /* For Large devices */
+  .client_comment p {
+    font-size: 18px;
+    padding-right: 10px;
+  }
+  .client_comment #client_name {
+    font-size: 18px;
+  }
+}
+
