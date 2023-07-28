@@ -596,3 +596,84 @@ body {
 .contact_item ul li p {
     line-height: 24px;
 }
+
+/* =========================== footer section css starts ================================= */
+#footer {
+    background-color: black;
+}
+.footer {
+    width: 100%;
+    padding-top: 100px;
+
+}
+.footer p{
+    color: rgba(255,255,255,0.4);
+    text-align: center;
+    font-size: 16px;
+}
+.footer p i {
+    color: #DC3545; 
+}
+.footer p span {
+    color: #a2b42c;
+    font-size: 18px;
+    font-weight: 300;
+}
+.footer_social_tabs {
+    width: 100%;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer_social_tabs a {
+    text-decoration: none;
+    background-color: purple;
+    color: #fff;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.footer_social_tabs a i {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.social_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
+}
+.social_container  div {
+    flex-basis: 5%;
+    background-color: black;
+    text-align: center;
+    
+    
+}
+.social_container div a {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #333333;
+    text-align: left;
+    transition: all linear 0.3s;
+}
+.social_container div a i {
+    color: #B2C251;
+    font-size: 22px;
+}
+.social_container div:hover a{
+    background-color: #B2C251;
+    
+}
+.social_container div:hover a i {
+    color: #fff;
+}
+.social_container div a {
+    padding: 20px 20px;
+}
+
