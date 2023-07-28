@@ -567,3 +567,36 @@
     flex-basis: 35%;
   }
 }
+
+/* ==============  Footer section responsive css starts from here ===================== */
+@media screen and (max-width: 575px) {
+  /* ================= for extra small devices ========================= */
+  .social_container {
+      column-gap: 12px;
+  }
+  .social_container div a {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+  }
+  .social_container div a i {
+    font-size: 14px;
+  }
+  .footer p {
+    font-size: 14px;
+  }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  /* For extra large devices */
+  .footer p {
+    /* font-size: 30px; */
+  }
+  .social_container div a {
+    background-color: #333333;
+  }
+
+
+}
