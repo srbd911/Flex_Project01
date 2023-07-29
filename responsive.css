@@ -597,6 +597,46 @@
   .social_container div a {
     background-color: #333333;
   }
+}
 
+/* ==========================banner section responsive css starts from here============================  */
+@media screen and (max-width: 575px) {
+  /* For extra small devices */
+  .banner_text h1 {
+      font-size: 40px;
+  }
+  .banner_menu ul li {
+    display: block;
+    text-align: left;
+    margin: 15px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  /* For small devices */
+  .banner_text h1 {
+      font-size: 50px;
+  }
+  .banner_menu ul li {
+    display: block;
+    text-align: left;
+    margin: 15px;
+  }
 
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* For medium devices */
+  .banner_menu ul li {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* For large devices */
+  .banner_menu ul li a {
+    font-size: 24px;
+  }
+  .banner_text span {
+    font-size: 22px; 
+  }
 }
